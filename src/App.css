@@ -1,0 +1,68 @@
+#root{
+  width: 100vw;
+  height: 100vh;
+  background: rgb(125,176,196);
+  background: radial-gradient(circle, rgba(125,176,196,1) 0%, rgba(135,206,235,1) 100%);
+} 
+
+.shipInfo{
+  position: absolute;
+  z-index: 1;
+  left: 10px;
+  top: 20px;
+  background-color: #222;
+  width: 30vh;
+  height: 30vh;
+  border-radius: 15px;
+  border: #fff solid 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.shipInfo h1{
+  font-family: 'Space Mono', monospace;
+  color: #fff;
+  font-size: 3vh;
+  text-align: center;
+  font-weight: 500;
+}
+
+.missionInfo{
+  right: 10px;
+  top: 20px;
+  position: absolute;
+  z-index: 1;
+  background-color: #222;
+  width: 30vh;
+  height: 30vh;
+  border-radius: 15px;
+  border: #fff solid 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.missionInfo h1{
+  font-family: 'Space Mono', monospace;
+  color: #fff;
+  font-size: 2.7vh;
+  text-align: center;
+  font-weight: 500;
+}
+.missionInfo h2{
+  font-family: 'Space Mono', monospace;
+  color: #fff;
+  font-size: 2.5vh;
+  text-align: center;
+  font-weight: 500;
+}
+.missionInfo p{
+  font-family: 'Space Mono', monospace;
+  color: #fff;
+  font-size: 2vh;
+  text-align: center;
+  font-weight: 300;
+}
